@@ -83,7 +83,7 @@ function draw() {
 drawSprites();
 textSize(20);
 fill("yellow");
-text("Diamonds Collected - ",+diamondScore,50,200)
+text("Diamonds Collected - "+ diamondScore,50,200)
 }
 
 function getStones(){
